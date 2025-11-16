@@ -1,6 +1,10 @@
 # Density-Driven Optimal Control (D2OC)
 ### MATLAB Implementation for Optimal Transport–Based Multi-Agent Coverage Control
 
+<p align="center">
+  <img src="figs/d2oc.png" width="550">
+</p>
+
 This repository provides the official MATLAB implementation of  
 **Density-Driven Optimal Control (D2OC)** — a novel multi-agent control framework based on  
 **Optimal Transport (OT)** and **Wasserstein distance** for  
