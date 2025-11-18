@@ -132,7 +132,7 @@ cnt_sim = 2;   % use 2, 3, or 4
 If you use this code, please cite:
 
 ```
-K. Lee, “Density-Driven Optimal Control (D2OC) for Multi-Agent Systems,”
+S. Seo and K. Lee, “Density-Driven Optimal Control for Efficient and Collaborative Multiagent Nonuniform Coverage,”
 IEEE Transactions on Systems, Man, and Cybernetics: Systems, 2025.
 DOI: https://doi.org/10.1109/TSMC.2025.3622075
 ```
