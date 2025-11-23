@@ -2,7 +2,7 @@
 ### MATLAB Implementation for Optimal Transport–Based Multi-Agent Coverage Control
 
 <p align="center">
-  <img src="figs/d2oc.png" width="550">
+  <img src="figs/d2oc_sim.gif" width="550">
 </p>
 
 This repository provides the official MATLAB implementation of  
