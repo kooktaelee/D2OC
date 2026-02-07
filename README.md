@@ -1,7 +1,7 @@
 # Density-Driven Optimal Control (D2OC)
 ### Python and MATLAB Implementation of Optimal Transport–Based Multi-Agent Control: Time-Averaged Trajectory Matching for Specified Reference Distributions
 
-### 🚀 [Try the Live Interactive Demo Here!](https://huggingface.co/spaces/D2OC/D2OC-Demo)
+### 🚀 [Try the Live Interactive Demo Here!](https://huggingface.co/spaces/D2OC/Nonuniform-Multi-Robot-Coverage)
 
 
 
