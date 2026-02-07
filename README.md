@@ -1,5 +1,5 @@
 # Density-Driven Optimal Control (D2OC)
-### MATLAB Implementation for Optimal Transport–Based Multi-Agent Coverage Control
+### Python and MATLAB Implementation of Optimal Transport–Based Multi-Agent Control: Time-Averaged Trajectory Matching for Specified Reference Distributions
 
 <p align="center">
   <img src="figs/simulation.gif" width="550">
@@ -41,6 +41,37 @@ Included in this repository:
 
 ---
 
+📁 Repository Structure
+The source code is organized into Python and MATLAB implementations:
+
+[Python]
+Located in the /Python folder.
+Contains the single file for Python-based implementation of the D2OC framework for cross-platform research and integration.
+Just run D2OC_main.py
+
+[MATLAB]
+Located in the /MATLAB folder.
+Main_D2OC.m : Main simulation script.
+environment/DF.mat : Reference density maps.
+param/param07.mat : Control parameters.
+update_weight_R2.m : Decentralized weight update rule.
+hamilton_optimal_control... : OT-based target computation logic.
+
+## ▶ How to Run (MATLAB)
+1. Clone or download this repository  
+2. Use MATLAB R2020a or later  
+3. Ensure `sim_data/Sim_rev60.mat` exists  
+4. Open `Main_D2OC.m`  
+5. Select a test:
+
+```matlab
+cnt_sim = 2;   % use 2, 3, or 4
+```
+6. Run the script  
+7. Watch live visualization of UAV trajectories and density evolution  
+
+---
+
 ## 🔥 Key Features
 
 - **Optimal Transport control** with Wasserstein distance  
@@ -65,36 +96,6 @@ where:
 - x, y = positions  
 - theta, phi = pitch/roll angles  
 - derivatives = velocities  
-
----
-
-## 📁 Repository Structure
-
-```
-Main_D2OC.m                 → Main simulation script
-environment/DF.mat          → Reference density maps
-param/param07.mat           → Control parameters
-sim_data/Sim_rev60.mat      → Simulation configurations
-update_weight_R2.m          → Decentralized weight update rule
-hamilton_optimal_control... → OT-based target computation
-```
-
----
-
-## ▶ How to Run
-
-1. Clone or download this repository  
-2. Use MATLAB R2020a or later  
-3. Ensure `sim_data/Sim_rev60.mat` exists  
-4. Open `Main_D2OC.m`  
-5. Select a test:
-
-```matlab
-cnt_sim = 2;   % use 2, 3, or 4
-```
-
-6. Run the script  
-7. Watch live visualization of UAV trajectories and density evolution  
 
 ---
 
