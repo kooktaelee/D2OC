@@ -2,7 +2,7 @@
 ### Python and MATLAB Implementation of Optimal Transport–Based Multi-Agent Control: Time-Averaged Trajectory Matching for Specified Reference Distributions
 
 <p align="center">
-  <img src="figs/simulationgif" width="550">
+  <img src="figs/simulation.gif" width="550">
 </p>
 
 This repository provides the official MATLAB implementation of  
