@@ -44,13 +44,13 @@ Included in this repository:
 📁 Repository Structure
 The source code is organized into Python and MATLAB implementations:
 
-**[Python]**
+## [Python]
 Located in the /Python folder.
 Contains the single file for Python-based implementation of the D2OC framework for cross-platform research and integration.
 Just run D2OC_main.py
 
 
-**[MATLAB]**
+## [MATLAB]
 Located in the /MATLAB folder.
 Main_D2OC.m : Main simulation script.
 environment/DF.mat : Reference density maps.
