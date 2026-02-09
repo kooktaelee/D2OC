@@ -1,15 +1,15 @@
 import numpy as np
 import matplotlib.pyplot as plt
 from PIL import Image
-from scipy.stats import gaussian_kde # Added for density contour calculation
+from scipy.stats import gaussian_kde 
 
 plt.close('all')
 
-# [Hamiltonian-based Optimal Control - Absolute Preservation]
+# [Hamiltonian-based Optimal Control]
 def hamilton_optimal_control(x, alpha_k, z, local_weight, pos_idx, d_sq):
     """
     Computes the optimal target centroid (xg) using the Optimal Transport (OT) principle.
-    The goal is to move towards the region that minimizes the Wasserstein-2 cost.
+    The goal is to move towards the region that minimizes the 2-Wasserstein cost.
     
     Parameters:
     - x: Current agent position [x, y]
@@ -24,7 +24,7 @@ def hamilton_optimal_control(x, alpha_k, z, local_weight, pos_idx, d_sq):
     # 1. Extract weights of the remaining density points within the agent's perception
     w_sub = local_weight[pos_idx]
     
-    # 2. Compute the 'energy-weighted distance' to identify the most efficient coverage targets
+    # 2. Compute the 'weighted normalized distance' to identify the most efficient coverage targets
     # This reflects the Hamiltonian-based cost: balancing proximity and density importance
     d_wnE = d_sq / (w_sub**2 + 1e-12)
     
@@ -126,7 +126,6 @@ def run_d2oc_decentralized():
     y_ref = np.vstack([np.random.multivariate_normal(np.random.uniform(8, 92, 2), np.eye(2)*10, 300) for _ in range(15)])
     
     # --- Visualization: Contour Generation via KDE ---
-    # Pre-calculate density contours for static background visualization
     xi, yi = np.mgrid[0:100:100j, 0:100:100j]
     positions = np.vstack([xi.ravel(), yi.ravel()])
     kde = gaussian_kde(y_ref.T)
@@ -285,4 +284,5 @@ def run_d2oc_decentralized():
     plt.ioff(); plt.show()
 
 if __name__ == "__main__":
+
     run_d2oc_decentralized()
