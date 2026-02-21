@@ -1,7 +1,7 @@
 # Density-Driven Optimal Control (D2OC)
 ### Python and MATLAB Implementation of Optimal Transport–Based Multi-Agent Control: Time-Averaged Trajectory Matching for Any Given Reference Distributions
 
-### 🚀 [Try the Live Interactive Demo Here!](https://huggingface.co/spaces/D2OC/Nonuniform-Multi-Robot-Coverage)
+### *[Try the Live Interactive Demo Here!](https://huggingface.co/spaces/D2OC/Nonuniform-Multi-Robot-Coverage)
 
 
 
@@ -15,14 +15,14 @@ This repository provides the official Python and MATLAB implementation of
 
 This code accompanies the following publication:
 
-📄 **Paper (IEEE Transactions on Systems, Man, and Cybernetics: Systems)**  
-👉 DOI: https://doi.org/10.1109/TSMC.2025.3622075
-👉 arXiv: https://arxiv.org/abs/2511.12756
+**Paper (IEEE Transactions on Systems, Man, and Cybernetics: Systems)**  
+DOI: https://doi.org/10.1109/TSMC.2025.3622075
+arXiv: https://arxiv.org/abs/2511.12756
 
 
 ---
 
-## 🚀 Overview
+## Overview
 
 D2OC solves decentralized multi-agent area coverage by:
 
@@ -75,7 +75,7 @@ cnt_sim = 2;   % use 2, 3, or 4
 
 ---
 
-## 🔥 Key Features
+## Key Features
 
 - **Optimal Transport control** with Wasserstein distance  
 - **Non-uniform density tracking**  
@@ -87,7 +87,7 @@ cnt_sim = 2;   % use 2, 3, or 4
 
 ---
 
-## 📘 State Dynamics
+## State Dynamics
 
 State vector:
 
@@ -102,7 +102,7 @@ where:
 
 ---
 
-## 📌 Applications
+## Applications
 
 - Search & Rescue (SAR)  
 - Environmental monitoring  
@@ -113,7 +113,7 @@ where:
 
 ---
 
-## 📊 Keywords
+## Keywords
 
 - density-driven optimal control  
 - optimal transport control  
@@ -131,7 +131,7 @@ where:
 
 ---
 
-## 📖 Citation
+## Citation
 
 If you use this code, please cite:
 
@@ -145,7 +145,7 @@ DOI: https://doi.org/10.1109/TSMC.2025.3622075
 
 ---
 
-## 📝 License
+## License
 Released under the **MIT License**.
 
 ---
