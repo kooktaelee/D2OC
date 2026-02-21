@@ -1,7 +1,7 @@
 # Density-Driven Optimal Control (D2OC)
 ### Python and MATLAB Implementation of Optimal Transport–Based Multi-Agent Control: Time-Averaged Trajectory Matching for Any Given Reference Distributions
 
-### *[Try the Live Interactive Demo Here!](https://huggingface.co/spaces/D2OC/Nonuniform-Multi-Robot-Coverage)
+### [*Try the Live Interactive Demo Here!](https://huggingface.co/spaces/D2OC/Nonuniform-Multi-Robot-Coverage)
 
 
 
@@ -43,7 +43,7 @@ Included in this repository:
 
 ---
 
-📁 Repository Structure
+Repository Structure
 The source code is organized into Python and MATLAB implementations:
 
 ## [Python]
@@ -60,7 +60,7 @@ param/param07.mat : Control parameters.
 update_weight_R2.m : Decentralized weight update rule.
 hamilton_optimal_control... : OT-based target computation logic.
 
-## ▶ How to Run (MATLAB)
+## How to Run (MATLAB)
 1. Clone or download this repository  
 2. Use MATLAB R2020a or later  
 3. Ensure `sim_data/Sim_rev60.mat` exists  
@@ -150,6 +150,6 @@ Released under the **MIT License**.
 
 ---
 
-## 📧 Contact
+## Contact
 Maintained by **Kooktae Lee, Ph.D.**  
 Associate Professor, Mechanical Engineering, New Mexico Tech
