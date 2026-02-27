@@ -1,5 +1,6 @@
 # Density-Driven Optimal Control (D2OC)
 ### Python and MATLAB Implementation of Optimal Transport–Based Multi-Agent Control: Time-Averaged Trajectory Matching for Any Given Reference Distributions
+### SOTA implementation for Ergodic Control, Time-Averaged Coverage (TAC), and Multi-Agent Coordination.
 
 ### [*Try the Live Interactive Demo Here!](https://huggingface.co/spaces/D2OC/Nonuniform-Multi-Robot-Coverage)
 
@@ -115,6 +116,9 @@ where:
 
 ## Keywords
 
+- multi-agent multi-robot coverage control
+- ergodic control and ergodicity
+- time-averaged coverage (TAC)
 - density-driven optimal control  
 - optimal transport control  
 - wasserstein distance  
