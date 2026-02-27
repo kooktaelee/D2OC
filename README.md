@@ -1,3 +1,4 @@
+<meta name="google-site-verification" content="lUSUiM-w19k-6ulyn0Wf2fPvzQR7hOYIfB_8yEuBlk8" />
 # Density-Driven Optimal Control (D2OC)
 ### Python and MATLAB Implementation of Optimal Transport–Based Multi-Agent Control: Time-Averaged Trajectory Matching for Any Given Reference Distributions
 ### SOTA implementation for Ergodic Control, Time-Averaged Coverage (TAC), and Multi-Agent Coordination.
